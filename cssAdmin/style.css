@@ -1,0 +1,210 @@
+:root {
+    --color-fondo: #f5f6fa;          /* fondo gris muy claro */
+    --color-texto: #2f3640;          /* gris oscuro para texto principal */
+    --color-header: #273c75;         /* azul oscuro */
+    --color-nav: #40739e;            /* azul medio */
+    --color-footer: #2f3640;         /* gris oscuro */
+    --color-tabla-fondo: #ffffff;    /* blanco para tablas */
+    --color-tabla-th: #40739e;       /* azul medio para encabezados */
+    --color-tabla-border: #dcdde1;   /* gris claro para bordes */
+    --color-badge-success: #44bd32;  /* verde profesional */
+    --color-badge-secondary: #718093;/* gris para badges secundarios */
+    --color-hover: #e1e2e6;          /* hover suave */
+}
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: var(--color-header);
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    margin-bottom: 40px;
+}
+h2 {
+    border-bottom: 2px solid var(--color-header);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--color-tabla-fondo);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th {
+    background-color: var(--color-tabla-th);
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+td {
+    padding: 12px;
+    border-bottom: 1px solid var(--color-tabla-border);
+}
+tr:hover {
+    background-color: var(--color-hover);
+}
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.badge-success {
+    background-color: var(--color-badge-success);
+    color: #ffffff;
+}
+.badge-secondary {
+    background-color: var(--color-badge-secondary);
+    color: #ffffff;
+}
+footer {
+    background-color: var(--color-footer);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+button {
+    background-color: var(--color-header);
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover {
+    background-color: var(--color-nav);
+}
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid var(--color-tabla-border);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+form label {
+    font-weight: 600;
+}
+form button {
+    margin-top: 10px;
+}
+/* Estilos generales */
+body {
+    background-color: #ffffff; /* gris claro */
+    font-family: Arial, sans-serif;
+}
+/* Header */
+header h1 {
+    color: #ffffff;
+}
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    margin-bottom: 40px;
+}
+h2 {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+td {
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.badge-success {
+    background-color: #28a745;
+    color: #ffffff;
+}
+.badge-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #555555;
+}
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+form label {
+    font-weight: 600;
+}
+form button {
+    margin-top: 10px;
+}

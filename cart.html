@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito | Café LeBlanc Shibuya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Café LeBlanc</a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Inicio</a></li>
+                <li><a href="index.html#products">Productos</a></li>
+                <li><a href="index.html#about">Nosotros</a></li>
+                <li><a href="index.html#contact">Contacto</a></li>
+                <li><a href="index.html#login">Iniciar Sesión</a></li>
+                <li><a href="index.html#register">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart" class="cart-section">
+            <h2>Tu Carrito de Compras</h2>
+            <div id="cart-items" class="cart-container">
+                </div>
+            <div class="cart-total">
+                <h3>Total: $<span id="cart-total-price">0</span></h3>
+            </div>
+            <div class="cart-actions">
+                <button id="checkout-btn" class="submit-button">Comprar</button>
+                <button id="clear-cart-btn" class="submit-button">Vaciar Carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Café LeBlanc Shibuya. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
